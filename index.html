@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS AngularJS + RequireJS App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/orangestyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom_2ee.css">
+</head>
+<body>
+<div id="left-menu" style="display: none;">
+  <ul class="nav nav-pills pull-left"></ul>
+</div>
+<div class="header-height"></div>
+<div class="header">
+  <div class="container">
+    <div id="main-nav-left">
+      <ul class="nav nav-pills pull-left">
+      </ul>
+    </div>
+    <div id="main-nav">
+      <ul class="nav nav-pills pull-right">
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="main">
+  <div class="container" style="text-align:center;">
+    <div data-ng-view></div>
+  </div>
+</div>
+<div class="footer-container">
+  <div class="footer" id="footer">
+      <span id="footer-nav-left"></span>
+      <div id="footer-nav-center">
+        <ul class="nav nav-pills nav-center navbar-inner">
+        </ul>
+      </div>
+      <span id="footer-nav-right"></span>
+  </div>
+</div>
+  <div>Angular Require seed app: v<span app-version></span></div>
+
+  <script src="lib/requirejs/require.js" data-main="js/main.js"></script>
+</body>
+</html>

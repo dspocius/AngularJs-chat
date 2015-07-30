@@ -1,0 +1,93 @@
+/*ONLY IN ANGULAR*/
+/*usersLeftMenu*/
+.usersLeftMenu{
+    float:left;
+    width:20%;
+    background:white;
+    margin:0px;
+}
+.containerMessages{
+    width:80%;
+    float:left;
+    border-left:1px solid #ccc;
+}
+.bottomsendmsg{
+    width:90%;
+    margin:auto;
+}
+.userConnected{
+    background:red;
+}
+.textareaforuser{
+    width:80%;
+    padding:0px;
+    margin:0px;
+    height:50px;
+    border:1px solid #ccc;
+    outline:none;
+}
+.sendButton{
+    width:80px;
+    height:50px;
+    background:white;
+    border:1px solid #ccc;
+    padding:10px;
+    margin-right:10px;
+    float:left;
+}
+.sendButton:hover{
+    background:#ccc;
+}
+.glyphonline{
+    color:green;
+    font-size: 14px;
+    padding-right:5px;
+}
+.allmessages{
+    height:250px;
+    overflow-y:scroll;
+}
+.userChoose{
+    font-size:14px;
+    padding-top:10px;
+    padding-left:10px;
+    height:60px;
+    cursor:pointer;
+    border-bottom:1px solid #ccc;
+}
+.userChoose:hover{
+    background:#ccc;
+}
+.selectedUser{
+    background:#ccc;
+}
+
+.peopleView .userChoose{
+    float:left;
+    width:50%;
+    cursor:auto;
+}
+.peopleView .userChoose:hover{
+    background:white;
+}
+.user-add{
+    float:right;
+    margin-right:10px;
+    margin-top:-18px;
+    font-size:35px;
+    cursor:pointer;
+}
+.user-add:hover{
+    color:orange;
+}
+.user-accept{
+    float:right;
+    margin-right:10px;
+    margin-top:-18px;
+    font-size:35px;
+    cursor:pointer;
+}
+.user-accept:hover{
+    color:orange;
+}
+/*END ONLY IN ANGULAR*/
